@@ -4,25 +4,24 @@ using namespace std;
 
 int main()
 {
-	double a,c,b  ;
 	string str ;
 	rep_in:	
-	cout << "½Ğ¿é¤J¯¸¦W-";
+	cout << "è«‹è¼¸å…¥ç«™å-";
 	cin >> str ;
-	if (str == "¤GªL" ){
-		cout << str<<"¯¸»İ­n30¤¸";
+	if (str == "äºŒæ—" ){
+		cout << str<<"ç«™éœ€è¦30å…ƒ";
 	}
-	else if (str == "·Ë´ò"){
-		cout << str<<"¯¸»İ­n45¤¸";
+	else if (str == "æºªæ¹–"){
+		cout << str<<"ç«™éœ€è¦45å…ƒ";
 	}
-	else if (str == "¹ü¤Æ"){
-		cout << str<<"¯¸»İ­n50¤¸";
+	else if (str == "å½°åŒ–"){
+		cout << str<<"ç«™éœ€è¦50å…ƒ";
 	}
-	else if (str == "­ûªL"){
-		cout << str<<"¯¸»İ­n60¤¸";
+	else if (str == "å“¡æ—"){
+		cout << str<<"ç«™éœ€è¦60å…ƒ";
 	}
 	else {
-		cout << "§ä¤£¨ì" << str <<"³o­Ó¯¸¦W\n" ; 
+		cout << "æ‰¾ä¸åˆ°" << str <<"é€™å€‹ç«™å\n" ; 
 		system("Pause");
 		goto rep_in;
 	}
